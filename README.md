@@ -20,11 +20,11 @@ So Steve can have an overview of each stock's performance in a specific year by 
 
 ## Summary
 - Original script
-<br> In the worksheet"AllStocksAnalysis_original" from the excel file [VBS_Challenge](https://github.com/Ilylsh/kickstarter-analysis/blob/a80084e13e3c1d2960e9ceec81e6e0180701604f/Kickstarter_Challenge_Lucy%20Yuan.xlsx), we can see "TotalVolume", "startingPrices" and "endingPrices" are variables. We are in the for loop for defining the variables and open the new worksheet to print the output, and then move on to the next ticker.  
+<br> In the worksheet"AllStocksAnalysis_original" from the excel file [VBA_Challenge](https://github.com/Ilylsh/VBA_Project/blob/ad6636b938e9c9cbc3902fe6a2f3e82dbd468dfb/VBA_Challenge.xlsm.xlsm), we can see "TotalVolume", "startingPrices" and "endingPrices" are variables. We are in the for loop for defining the variables and open the new worksheet to print the output, and then move on to the next ticker.  
 The running time is above 2secs.
 
 - Refactored script
-<br> In the worksheet"All Stocks Analysis" from the excel file [VBS_Challenge](https://github.com/Ilylsh/kickstarter-analysis/blob/a80084e13e3c1d2960e9ceec81e6e0180701604f/Kickstarter_Challenge_Lucy%20Yuan., we are trying to create an array instead of a variable for 'TotalVolume", "startingPrices" and "endingPrices". So we define the array first, and then create a for loop to loop through the array and get the results.
+<br> In the worksheet"All Stocks Analysis" from the excel file [VBA_Challenge](https://github.com/Ilylsh/VBA_Project/blob/ad6636b938e9c9cbc3902fe6a2f3e82dbd468dfb/VBA_Challenge.xlsm.xlsm), we are trying to create an array instead of a variable for 'TotalVolume", "startingPrices" and "endingPrices". So we define the array first, and then create a for loop to loop through the array and get the results.
 The running time is below 2secs.
 
 ## Pros and Cons of original script
